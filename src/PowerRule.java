@@ -10,5 +10,9 @@ public class PowerRule {
         System.out.println("Please enter the degrees:");
         String degrees = keyboard.nextLine();
         keyboard.close();
+
+        String[] coeff = coefficients.split(" ");
+        String[] deg = degrees.split(" ");
+        
     }
 }
